@@ -9,7 +9,7 @@
 	<?php
 		require "User.php";
 		
-		print 'test</br>';
+		print 'test<br>';
 		
 		$object = new User;
 		
@@ -17,7 +17,7 @@
 		$object->password = "abc@123%&";
 		print_r($object);
 		
-		print '</br>';
+		print '<br>';
 		
 		$object->save_user();
 	?>
